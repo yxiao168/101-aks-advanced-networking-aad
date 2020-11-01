@@ -1,5 +1,5 @@
 # 14.sh
 #
-# Access cluster with Azure AD
-# 
-az aks get-credentials --resource-group $RESOURCE_GROUP --name $AKS_CLUSTER_NAME --overwrite-existing
+# Create RBAC binding
+#
+az ad signed-in-user show --query userPrincipalName -o tsv

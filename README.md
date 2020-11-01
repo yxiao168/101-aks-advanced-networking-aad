@@ -63,3 +63,11 @@ You can click the "deploy to Azure" button at the beginning of this document or 
 - [Deploy resources with Resource Manager templates and Azure CLI](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-template-deploy-cli)
 
 
+## Limitations
+- Requires Managed Azure AD integration.
+- You can't integrate Azure RBAC for Kubernetes authorization into existing clusters during preview, but you will be able to at General Availability (GA).
+- Use kubectl v1.18.3+.
+- During preview, you can only add Namespace level permissions via the Azure CLI.
+- If you have CRDs and are making custom role definitions, the only way to cover CRDs today is to provide Microsoft.ContainerService/managedClusters/*/read. AKS is working on providing more granular permissions for CRDs. For the remaining objects you can use the specific API Groups, for example: Microsoft.ContainerService/apps/deployments/read.
+- New role assignments can take up to 5min to propagate and be updated by the authorization server.
+- Requires the Azure AD tenant configured for authentication to be the same as the tenant for the subscription that holds the AKS cluster.

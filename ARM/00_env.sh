@@ -138,22 +138,6 @@ tenantId=28f4d78b-5ea7-463e-8982-841f9f5bd736
 #
 #
 #
-#$ . ./12.sh 
-#The behavior of this command has been altered by the following extension: aks-preview
-#Merged "aksnetaad1017753" as current context in /home/yxiao/.kube/config
-#$ . ./14.sh 
-#yanming_xiao_yahoo.com#EXT#_yanmingxiaoyahoo.onmicrosoGBVNS#EXT#@cloudyridge.onmicrosoft.com
-#
-#
-#
-#$ . ./15.sh 
-#To sign in, use a web browser to open the page https://microsoft.com/devicelogin and enter the code ATK5REYKR to authenticate.
-#Error from server (Forbidden): error when retrieving current configuration of:
-#Resource: "rbac.authorization.k8s.io/v1, Resource=clusterrolebindings", GroupVersionKind: "rbac.authorization.k8s.io/v1, Kind=ClusterRoleBinding"
-#Name: "contoso-cluster-admins", Namespace: ""
-#from server for: "basic-azure-ad-binding.yaml": clusterrolebindings.rbac.authorization.k8s.io "contoso-cluster-admins" is forbidden: User "a9787755-c06b-4b54-af35-a5fc222ced80" cannot get resource "clusterrolebindings" in API group "rbac.authorization.k8s.io" at the cluster scope
-#
-#
 #====================================================
 #
 echo "PROJECT=${PROJECT}"

@@ -1,0 +1,13 @@
+02.txt
+
+$ . ./02.sh 
+Changing "sp-aksnetaad10120672" to a valid URI of "http://sp-aksnetaad10120672", which is the required format used for service principal names
+Creating a role assignment under the scope of "/subscriptions/702f1b82-c5a3-4907-9154-3422eaf5f48e"
+  Retrying role assignment creation: 1/36
+{
+  "appId": "d3ff920c-0ae6-49a8-96de-0ba63f0a6e68",
+  "displayName": "sp-aksnetaad10120672",
+  "name": "http://sp-aksnetaad10120672",
+  "password": "uYJlf-ijqV4uSKK1ZRh6LJ5CBLPs3bkhYZ",
+  "tenant": "28f4d78b-5ea7-463e-8982-841f9f5bd736"
+}
