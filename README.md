@@ -13,7 +13,6 @@ https://github.com/Azure/azure-quickstart-templates/tree/master/101-aks-advanced
 ![Best Practice Check](https://azurequickstartsservice.blob.core.windows.net/badges/101-aks-advanced-networking-aad/BestPracticeResult.svg)
 ![Cred Scan Check](https://azurequickstartsservice.blob.core.windows.net/badges/101-aks-advanced-networking-aad/CredScanResult.svg)
 
-[![Deploy To Azure](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.svg?sanitize=true)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2F101-aks-advanced-networking-aad%2Fazuredeploy.json)  
 
 [![Self-deploy To Azure](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.svg?sanitize=true)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fyxiao168%2F101-aks-advanced-networking-aad%2Fmain%2Fazuredeploy.json)
 
